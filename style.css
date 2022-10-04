@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+}
+
+.page_links {
+    list-style: none;
+}
+
+.page_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.page_links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+    justify-content: space-between;    
+}
+
+.page_links li a:hover {
+    color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+main {
+    min-height: calc(960px - 210px - 0px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    background: linear-gradient(12deg, grey, white);
+}
+
+#leftcolumn {
+    float: left;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 75px;
+    width: 480px;
+    list-style: none;
+}
+
+#rightcolumn {
+    float: right;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 75px;
+    width: 480px;
+}
+
+#pagewidth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-bottom: 0px;
+}
+
+#video {
+}
+
+#images {
+    justify-content: space-between;
+}
+
+#homepage {
+    padding-top: 200px;
+}
+
+#Emailbox {
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+
+input[type=email] {
+    background-color: white;
+}
+
+#Namebox {
+    padding: 20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text] {
+    background-color: white;
+}
+
+#Messagebox {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Submit {
+    padding-bottom: 50px;
+}
+
+input[type=Submit] {
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form {
+    float:inline-end;
+    border: 15px solid grey;
+    width: 300px;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+
